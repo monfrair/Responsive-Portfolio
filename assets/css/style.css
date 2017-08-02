@@ -1,0 +1,294 @@
+        /*---------Basic Setup-------------*/
+
+
+/*--William Sorrentino Rutgers Bootcamp Summer 2017--->
+
+<---Tuesday/Thursday Class-----*/
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: lightgrey;
+    color: #555;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 150%;
+    text-rendering: optimizeLegibility;
+    width: 960px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+/*----------Header and footer-----------*/
+
+header {
+    height: 60px;
+    width: 100%;
+    background: #fff;
+    display: block;
+    margin-bottom: 30px;
+    border-bottom: 5px solid #0d1219;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    background-color: #666666;
+    height: 75px;
+    color: black;
+    border-top: 5px solid #fff padding;
+    25px 0 25px 0;
+}
+
+h1 {
+    display: inline-block;
+    background: #008D97;
+    font-size: 30px;
+    color: white;
+    padding: 15px 20px;
+}
+
+h2 {
+    display: inline-block;
+    background: #008D97;
+    font-size: 20px;
+    color: white;
+    padding: 15px 15px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    color: black;
+}
+
+.copyw {
+    margin-top: 25px;
+}
+
+
+/*-----------------Navigation-----------*/
+
+nav {
+    float: right;
+    list-style: none;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+
+/*------------------Images--------------------*/
+
+#linkedin-logo {
+    height: 60px;
+    width: auto;
+}
+
+#github-logo {
+    height: 60px;
+    width: auto;
+}
+
+#stack-logo {
+    height: 60px;
+    width: auto;
+}
+
+#youtube-logo {
+    height: 60px;
+    width: auto;
+}
+
+#twitter-logo {
+    height: 60px;
+    width: auto;
+}
+
+#facebook-logo {
+    height: 60px;
+    width: auto;
+}
+
+#googleplus-logo {
+    height: 60px;
+    width: auto;
+}
+
+#skype-logo {
+    height: 60px;
+    width: auto;
+}
+
+#wjhs {
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+#lhl {
+    height: 100px;
+    width: auto;
+}
+
+#starpainting {
+    height: 100px;
+    width: 240px;
+}
+
+#exigent {
+    height: 100px;
+    width: 240px;
+}
+
+#belmont {
+    height: 100px;
+    width: auto;
+}
+
+
+/*------------------Columns Set up for all pages-----------------*/
+
+#column1of2 {
+    width: 650px;
+    float: left;
+    margin-left: 20px;
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 100px;
+    border: 1px solid #dddddd;
+}
+
+#column2of2 {
+    float: right;
+    background: #fff;
+    text-align: center;
+    width: 270px;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    margin-right: auto;
+}
+
+
+/*-------------Contact Page-----------*/
+
+label {
+    display: block;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    margin: 10px 0 10px 0;
+    height: 25px;
+    border: 1px solid #eee;
+    font-size: 15px;
+    padding: 4px 8px;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 4px;
+    border: 1px solid #eee;
+    font-size: 15px;
+    padding: 4px 8px;
+}
+
+input[type="submit"] {
+    background: #008D97;
+    color: #eee;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+}
+
+
+/*---------------Portfolio Page----------*/
+
+li.my-site {
+    display: inline-block;
+    width: 260px;
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 1px;
+    height: 140px;
+    text-align: center;
+    position: relative;
+    background-color: #eee;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+
+/*---------------------Media Queries--------------------*/
+
+@media screen and (max-width: 640px) {
+    .name {
+        text-align: left;
+        width: 50%;
+    }
+    #column1of2 {
+        float: left;
+        width: 75%;
+    }
+    #column2of2 {
+        text-align: left;
+        float: left;
+        margin-top: 5px;
+        width: 75%
+    }
+    nav {
+        float: left;
+        margin-top: 0px;
+        padding-top: 0px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #column1of2 {
+        float: left;
+        width: 100%;
+    }
+    #column2of2 {
+        text-align: left;
+        float: left;
+        margin-top: 5px;
+        width: 100%
+    }
+    @media screen and (max-width: 980px) {
+        #column1of2 {
+            float: left;
+            width: 100%;
+        }
+        #column2of2 {
+            text-align: left;
+            float: left;
+            margin-top: 5px;
+            width: 100%
+        }
