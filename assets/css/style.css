@@ -246,6 +246,30 @@ li.my-site {
 
 
 /*---------------------Media Queries--------------------*/
+@media screen and (max-width: 980px) {
+        #column1of2 {
+            float: left;
+            width: 100%;
+        }
+        #column2of2 {
+            text-align: left;
+            float: left;
+            margin-top: 5px;
+            width: 100%
+        }
+        
+        @media screen and (max-width: 768px) {
+    #column1of2 {
+        float: left;
+        width: 100%;
+    }
+    #column2of2 {
+        text-align: left;
+        float: left;
+        margin-top: 5px;
+        width: 100%
+    }
+
 
 @media screen and (max-width: 640px) {
     .name {
@@ -270,25 +294,5 @@ li.my-site {
     }
 }
 
-@media screen and (max-width: 768px) {
-    #column1of2 {
-        float: left;
-        width: 100%;
-    }
-    #column2of2 {
-        text-align: left;
-        float: left;
-        margin-top: 5px;
-        width: 100%
-    }
-    @media screen and (max-width: 980px) {
-        #column1of2 {
-            float: left;
-            width: 100%;
-        }
-        #column2of2 {
-            text-align: left;
-            float: left;
-            margin-top: 5px;
-            width: 100%
-        }
+
+    
