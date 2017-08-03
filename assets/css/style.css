@@ -246,21 +246,22 @@ li.my-site {
 
 
 /*---------------------Media Queries--------------------*/
+
 @media screen and (max-width: 980px) {
         #column1of2 {
             float: left;
-            width: 100%;
+            width: 55%;
         }
         #column2of2 {
             text-align: left;
             float: left;
-            margin-top: 5px;
-            width: 100%
+            margin-right: 5px;
+            width: 35%
         }
         
         @media screen and (max-width: 768px) {
     #column1of2 {
-        float: left;
+        clear: both;
         width: 100%;
     }
     #column2of2 {
